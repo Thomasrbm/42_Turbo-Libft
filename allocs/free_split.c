@@ -12,17 +12,17 @@
 
 #include "../libft.h"
 
-void free_split(char **to_clean)
+void	free_split(char **to_clean)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	if (!to_clean)
-		return;
-	while(to_clean[i])
+		return ;
+	while (to_clean[i])
 	{
 		free(to_clean[i]);
 		i++;
 	}
-	free(to_clean); 
+	free(to_clean);
 }
