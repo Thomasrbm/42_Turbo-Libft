@@ -20,6 +20,18 @@ void	ft_putstr_fd(char *s, int fd)
 		s++;
 	}
 }
+
+int	ft_putstr_fd_int(char *s, int fd)
+{
+	while (s && *s)
+	{
+		write(fd, s, 1);
+		s++;
+	}
+	write(fd, "\n", 1);
+	return (1);
+}
+
 // int main(void)
 // {
 // 	char str[] = "Lille OSC";
