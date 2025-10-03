@@ -18,7 +18,7 @@ void free_split(char **to_clean)
 
 	i = 0;
 	if (!to_clean)
-		return (NULL);
+		return;
 	while(to_clean[i])
 	{
 		free(to_clean[i]);
