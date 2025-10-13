@@ -21,7 +21,6 @@
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 100
 # endif
-# define OPEN_MAX 1000
 
 typedef struct s_list
 {
