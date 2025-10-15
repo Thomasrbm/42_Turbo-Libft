@@ -73,7 +73,7 @@ char	*ft_strjoin(char *s1, char *s2)
 char	*ft_strjoin3(char *s1, char *s2, char *s3)
 {
 	char	*str_part1;
-	char	str_final;
+	char	*str_final;
 
 	str_part1 = ft_strjoin(s1, s2);
 	str_final = ft_strjoin(str_part1, s3);
