@@ -107,5 +107,4 @@ char				*ft_strtok(char *s, const char *delim);
 
 char				*ft_strjoin3(char *s1, char *s2, char *s3);
 
-
 #endif
