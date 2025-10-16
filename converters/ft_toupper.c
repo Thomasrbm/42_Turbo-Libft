@@ -6,7 +6,7 @@
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 13:42:58 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Updated: 2025/10/16 21:23:24 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,3 @@ int	ft_toupper(int c)
 		c -= 32;
 	return (c);
 }
-// int main(void)
-// {
-// 	printf("%c", ft_toupper('l'));
-// 	return(0);
-// }

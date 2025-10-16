@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/14 11:33:07 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/14 11:33:07 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:24:21 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,3 @@ int	ft_isalpha(int c)
 	else
 		return (0);
 }
-// int main(void)
-// {
-// 	printf("%d", ft_isalpha('9'));
-// 	return(0);
-// }

@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/15 05:11:59 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/15 05:11:59 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:24:42 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,11 +67,3 @@ int	ft_atoi(char *nptr)
 		convert *= -1;
 	return (convert);
 }
-
-// int main(void)
-// {
-// 	char str[] = "     23 5aa2358";
-
-// 	printf("%d", ft_atoi(str));
-// 	return(0);
-// }

@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/16 07:45:34 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/16 07:45:34 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:29:34 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,16 +21,6 @@ static int	ft_strleng(char *s)
 		a++;
 	return (a);
 }
-
-// static char	*ft_malloc(int n, int n2)
-// {
-// 	char	*str;
-
-// 	str = malloc(sizeof(char) * (n + n2 + 1));
-// 	if (!str)
-// 		return (NULL);
-// 	return (str);
-// }
 
 char	*ft_subjoin(char *s1, char *s2, char *s3)
 {
@@ -79,11 +69,3 @@ char	*ft_strjoin3(char *s1, char *s2, char *s3)
 	str_final = ft_strjoin(str_part1, s3);
 	return (str_final);
 }
-
-// int main(void)
-// {
-// 	char str1[] = "LILLE";
-// 	char str2[] = " OSC";
-// 	printf("%s", ft_strjoin(str1, str2));
-// 	return(0);
-// }

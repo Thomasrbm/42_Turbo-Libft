@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/16 14:13:41 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/16 14:13:41 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:30:19 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,10 +60,3 @@ char	*ft_substr(char *s, unsigned int start, size_t len)
 	res[i] = '\0';
 	return (res);
 }
-
-// int main(void)
-// {
-// 	char str1[] = "Lille OSC";
-// 	printf("%s", ft_substr(str1, 0, 5));
-// 	return(0);
-// }

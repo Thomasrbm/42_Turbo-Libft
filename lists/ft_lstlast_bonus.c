@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/21 12:23:14 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/21 12:23:14 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:27:07 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,23 +22,3 @@ t_list	*ft_lstlast(t_list *lst)
 	}
 	return (NULL);
 }
-// int main(void)
-// {
-// 	t_list *lst;
-// 	t_list *lst1;
-// 	t_list *lst2;
-// 	char str[] = "Argument 1";
-// 	char str1[] = "Argument 2";
-// 	char str2[] = "Argument 3";
-// 	lst = malloc(sizeof(t_list));
-// 	lst1 = malloc(sizeof(t_list));
-// 	lst2 = malloc(sizeof(t_list));
-// 	lst -> content = str;
-// 	lst -> next = lst1;
-// 	lst1 -> content = str1;
-// 	lst1 -> next = lst2;
-// 	lst2 -> content = str2;
-// 	lst2 -> next = NULL;
-// 	printf("%s\n", (char *)ft_lstlast(lst) -> content);
-// 	return(0);
-// }

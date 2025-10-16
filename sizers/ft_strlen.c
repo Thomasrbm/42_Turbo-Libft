@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/14 12:41:05 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/14 12:41:05 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:28:34 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,3 @@ size_t	ft_strlen(char *s)
 		a++;
 	return (a);
 }
-// int main(void)
-// {
-// 	printf("%d", ft_strlen("Losc"));
-// 	return(0);
-// }

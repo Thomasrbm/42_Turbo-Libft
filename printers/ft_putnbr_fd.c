@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/16 07:01:58 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/16 07:01:58 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:27:56 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,8 +36,3 @@ void	ft_putnbr_fd(int n, int fd)
 	}
 	ft_putchar(n + '0', fd);
 }
-// int main(void)
-// {
-// 	ft_putnbr_fd(-2147483648, 1);
-// 	return(0);
-// }

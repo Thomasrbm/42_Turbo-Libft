@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/14 12:49:06 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/14 12:49:06 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:25:55 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
-// int main(void)
-// {
-// 	char str[] = "LILLE OSC";
-// 	printf("%s", (char *)ft_memset(str, 'y', 4));
-// 	return(0);
-// }

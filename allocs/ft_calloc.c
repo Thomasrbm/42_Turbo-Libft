@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/15 09:13:42 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/15 09:13:42 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:25:43 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,10 +42,3 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	ft_zero(str, nmemb * size);
 	return (str);
 }
-
-// int main(void)
-// {
-// 	char *ptr = ft_calloc(0, 0);
-// 	free(ptr);
-// 	return(0);
-// }

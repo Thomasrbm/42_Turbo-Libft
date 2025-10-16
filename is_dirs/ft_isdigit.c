@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/14 12:17:19 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/14 12:17:19 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:23:54 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,3 @@ int	ft_isdigit(int c)
 	else
 		return (0);
 }
-// int main(void)
-// {
-// 	printf("%d", ft_isdigit('9'));
-// 	return(0);
-// }

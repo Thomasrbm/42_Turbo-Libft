@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/15 07:22:27 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/15 07:22:27 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:25:47 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,12 +31,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-// int main(void)
-// {
-// 	void *src = NULL;
-// 	char *dest = NULL;
-// 	ft_memcpy(dest, (const void*)src, 0);
-// 	printf("%s\n", (char *)src);
-// 	printf("%s", dest);
-// 	return(0);
-// }

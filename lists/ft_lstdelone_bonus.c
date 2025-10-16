@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/21 14:59:49 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/21 14:59:49 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:26:50 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,16 +18,3 @@ void	ft_lstdelone(t_list *lst, void (*del)(void*))
 	free(lst);
 	return ;
 }
-
-// int main(void)
-// {
-// 	t_list *lst;
-
-// 	char str[] = "Argument 1";
-// 	lst = malloc(sizeof(struct s_list));
-// 	lst	-> content = str;
-// 	lst	-> next = NULL;
-// 	ft_lstdelone(lst, 0);
-// 	printf("%s", (char *)lst);
-// 	return(0);
-// }

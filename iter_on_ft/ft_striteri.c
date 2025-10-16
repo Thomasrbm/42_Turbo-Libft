@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/16 07:37:26 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/16 07:37:26 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:26:13 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,12 +23,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		a++;
 	}
 }
-
-// int main(void)
-// {
-// 	char *strr;
-// 	char str[] = "Lille OSC";
-// 	strr = ft_strmapi(str, ft_fonction);
-// 	printf("%s", strr);
-// 	return(0);
-// }

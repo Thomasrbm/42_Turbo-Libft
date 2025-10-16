@@ -1,23 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strtrim_fixed.c                                 :+:      :+:    :+:   */
+/*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ...                                                           +#+ 
-	+:+       +#+        */
+/*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/17 15:55:00 by ...               #+#    #+#             */
-/*   Updated: 2025/02/17 15:55:00 by ...              ###   ########.fr       */
+/*   Created: 2025/10/16 21:30:07 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:30:10 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft.h"
-
-/*
-** Corrige le out-of-bounds si la chaîne est vide
-** ou si on recule trop. Pas de for/ternaire, max 25 lignes,
-** max 80 chars/ligne, 5 variables max.
-*/
 
 static int	is_in_set(char c, char *set)
 {

@@ -6,7 +6,7 @@
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 08:49:45 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Updated: 2025/10/16 21:23:06 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,11 +33,3 @@ int	ft_strncmp(char *s1, char *s2, size_t n)
 		a++;
 	return ((unsigned char)s1[a] - (unsigned char)s2[a]);
 }
-// int main(void)
-// {
-// 	char str[] = "test";
-// 	char str2[] = "";
-//	printf("%d\n", ft_strncmp(str, str2,06));
-//	printf("%d\n", strncmp(str, str2, 0));
-//  return (0);
-// }

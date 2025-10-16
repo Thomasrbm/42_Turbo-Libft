@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/16 03:03:35 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/16 03:03:35 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:29:47 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,14 +74,3 @@ size_t	ft_strlcat(char *dest, char *src, size_t size)
 	dest[d] = '\0';
 	return (a + b);
 }
-// int main(void)
-// {
-// 	char source[]="pqrstuvwxyz";
-// 	char destination[] = "";
-// 	printf("%s\n", source);
-// 	printf("%s\n", destination);
-// 	ft_strlcat(destination, source, 1);
-// 	printf("%s\n", source);
-// 	printf("%s", destination);
-// 	return(0);
-// }

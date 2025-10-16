@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/16 17:14:16 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/16 17:14:16 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:24:50 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,10 +56,3 @@ char	*ft_itoa(int n)
 	}
 	return (str);
 }
-// int main(void)
-// {
-// 	char *str;
-// 	str = ft_itoa(-10);
-// 	printf("%s", str);
-// 	return(0);
-// }

@@ -6,7 +6,7 @@
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 13:18:07 by throbert          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Updated: 2025/10/16 21:27:15 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,82 +75,3 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (lst_new);
 }
-
-// ENTRE FIN DU WHILE ET RETURN LST NEW DANS FT_LSTMAP
-	// t_list *print = lst_new;
-	// while (print)
-	// {
-	// 	printf("%s\n", (char *)print->content);
-	// 	print = print->next;
-	// }
-
-// #include <stdio.h>
-// #include  <string.h>
-
-// void	del(void *str)
-// {
-// 	free(str);
-// }
-
-// void	*test(void *str)
-// {
-// 	int i = 0;
-// 	while (((char *)str)[i])
-// 	{
-// 		i++;
-// 	}
-// 	char *str_new = malloc(i * sizeof(char) + 1);
-// 	if (!str_new)
-// 		return (NULL);
-// 	i = 0;
-// 	while (((char *)str)[i])
-// 	{
-// 			str_new[i] = ((char *)str)[i] - 32;
-// 			i++;
-// 	}	
-// 	str_new[i] = '\0';
-// 	return (str_new);
-// }
-
-// int main()
-// {
-// 	t_list	first;
-// 	t_list	second;
-// 	t_list	third;
-
-// 	t_list *lst;
-// 	lst = &first;
-
-// 	first.content = strdup("hello");
-// 	second.content = strdup("worldo");
-// 	third.content = strdup("dev");
-
-// 	first.next = &second;
-// 	second.next = &third;
-// 	third.next = NULL;
-
-// 	printf("%s\n", (char *)first.content);
-// 	printf("%s\n", (char *)second.content);
-// 	printf("%s\n\n", (char *)third.content);
-
-// 	t_list *stock = ft_lstmap(lst, test, del);
-
-// 	del(first.content);
-//     del(second.content);
-//     del(third.content);
-
-//     while (stock)
-//     {
-//         t_list *temp = stock; // Stocke l'adresse du nœud actuel
-//         stock = stock->next; // Passe au nœud suivant
-//         del(temp->content); // Libère le contenu
-//         free(temp); // Libère le nœud
-//     }
-// 	return 0;
-// }
-
-// strdup because cant first->content[] = "HELLO"
-// on already existing string and if 
-// just litterla sting first->content = "HELLO"
-// will not be modifiable / usable for copying
-// in another function

@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/15 09:08:44 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/15 09:08:44 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:25:59 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,20 +55,3 @@ char	*ft_strdup(char *s)
 	dest[a] = '\0';
 	return (dest);
 }
-
-// int	main(void)
-// {
-// 	int		a = 0;
-// 	char	*dest;
-// 	char	*src;
-
-// 	src = "LOLOL;OLOLOLO";
-// 	dest = ft_strdup(src);
-// 	while (dest[a] != '\0')
-// 	{
-// 		write(1, &dest[a], 1);
-// 		a++;
-// 	}
-// 	free (dest);
-// 	return (0);
-// }

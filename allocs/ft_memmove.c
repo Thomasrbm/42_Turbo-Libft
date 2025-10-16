@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/16 02:38:58 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/16 02:38:58 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:25:51 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,12 +39,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-// int main(void)
-// {
-//     char src[] = "BRAQUAGE DE BANQUE";
-//     char dest[80];
-//     ft_memmove(dest, src, 60);
-//     printf("%s\n", dest);
-//     return 0;
-// }

@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/17 07:18:45 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/17 07:18:45 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:26:21 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,6 @@ int	ft_strleng(char *s)
 		a++;
 	return (a);
 }
-
-// static char	ft_fonction(unsigned int a, char b)
-// {
-// 	return (a + b);
-// }
 
 char	*ft_strmapi(char *s, char (*f)(unsigned int, char))
 {
@@ -47,11 +42,3 @@ char	*ft_strmapi(char *s, char (*f)(unsigned int, char))
 	str[a] = '\0';
 	return (str);
 }
-// int main(void)
-// {
-// 	char *strr;
-// 	char str[] = "Lille OSC";
-// 	strr = ft_strmapi(str, ft_fonction);
-// 	printf("%s", strr);
-// 	return(0);
-// }

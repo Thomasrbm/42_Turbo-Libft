@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/14 12:26:37 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2025/10/16 21:24:01 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:24:08 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,3 @@ int	ft_isascii(int c)
 	else
 		return (0);
 }
-// int main(void)
-// {
-// 	printf("%d", ft_isascii('9'));
-// 	return(0);
-// }

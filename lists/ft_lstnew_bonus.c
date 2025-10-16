@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/18 15:31:03 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/18 15:31:03 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:27:24 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,3 @@ t_list	*ft_lstnew(void *content)
 	content1->next = NULL;
 	return (content1);
 }
-// int main(void)
-// {
-//     t_list *list = ft_lstnew("Hello");
-//     printf("%s\n", (char *)list->content);
-//     printf("%p\n", list->next);
-//     return (0);
-// }

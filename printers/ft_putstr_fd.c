@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/16 07:30:05 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/16 07:30:05 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:28:03 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,10 +31,3 @@ int	ft_putstr_fd_int(char *s, int fd)
 	write(fd, "\n", 1);
 	return (1);
 }
-
-// int main(void)
-// {
-// 	char str[] = "Lille OSC";
-// 	ft_putstr_fd(str, 1);
-// 	return(0);
-// }

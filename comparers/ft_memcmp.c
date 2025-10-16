@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/15 09:15:59 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/23 16:08:43 by throbert         ###   ########.fr       */
+/*   Created: 2024/10/15 09:15:59 by throbert          #+#    #+#             */
+/*   Updated: 2025/10/16 21:25:25 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,12 +31,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-// int main(void)
-// {
-// 	char chaine1[]="\0";
-// 	char chaine2[]="\200";
-// 	unsigned int taille = 2;
-
-// 	printf("%d\n", ft_memcmp(chaine1, chaine2, taille));
-// 	printf("%d\n", memcmp(chaine1, chaine2, taille));
-// }
