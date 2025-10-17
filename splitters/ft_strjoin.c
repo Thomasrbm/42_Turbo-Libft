@@ -6,7 +6,7 @@
 /*   By: throbert <throbert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 07:45:34 by throbert          #+#    #+#             */
-/*   Updated: 2025/10/16 21:29:34 by throbert         ###   ########.fr       */
+/*   Updated: 2025/10/17 03:07:15 by throbert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,5 +67,6 @@ char	*ft_strjoin3(char *s1, char *s2, char *s3)
 
 	str_part1 = ft_strjoin(s1, s2);
 	str_final = ft_strjoin(str_part1, s3);
+	free(str_part1);
 	return (str_final);
 }
